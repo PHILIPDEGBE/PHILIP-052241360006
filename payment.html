@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>PAYEMENT</title>
+    <style>
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+
+        .form{
+            border: 2px solid transparent;
+            background: url(pic1.jpg);
+            background-position: center;
+            background-size: cover;
+            border-radius: 23px;
+            width: 1500px;
+            height: auto;
+            margin: auto;
+        }
+
+        .table{
+            padding: 50px;
+            margin: 60px;
+            align-items: center;
+            align-self: center;
+           margin-right: 100px
+    }    
+
+
+    tr{
+        text-align: center;
+        padding: 50px;
+        color: white;
+    }
+
+    td{
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    input{
+        width: 400px;
+        border-radius: 20px;
+        height: 30px;
+        text-align: center;
+    }
+
+    ::placeholder{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    input:active{
+        height: 40px;
+        border-bottom-color: purple;
+    }
+
+    input:hover{
+        height: 40px;
+        border-top-color: red;
+        border-bottom-color: blueviolet;
+
+    }
+
+    #select{
+        width: 300px;
+    }
+
+    #select:hover{
+        border-radius: 30px;
+        border-bottom-color: blueviolet;
+        height: 30px;
+    }
+
+    .btn{
+       width: 250px;
+       height: 70px;
+       border-radius: 10px;
+       transition: 0.4s ease-in-out;
+       margin: 20px;
+       padding: 10px;
+       font-size: 25px;
+       font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .btn:hover{
+        background: orange;
+        color: white;
+    }
+
+    </style>
+</head>
+<body>
+    <H1 align="center">
+
+        PAYEMENTS
+    </H1>
+     <div class="form">
+        <table class="table" align="center" cellpadding="70" cellspacing="40">
+            <tr>
+                <td>STUDENT NAME<br><input type="text" name=" student name" placeholder="enter your name"></td>
+                <td> STUDENT NUMBER<br><input type="text" name="student number" placeholder="enter your student number"></td>
+            </tr>
+
+
+            <tr>
+                <td>DEPARTMENT<br><input type="text" name=" deprtment" placeholder="enter your deprtment"></td>
+                <td> CLASS NAME<br><input type="text" name="class name" placeholder="enter yourclass name"></td>
+            </tr>
+
+
+            <tr>
+                <td>PAYEMENT TYPE<br><select name="select" id="select">
+                    <option value="mobile money">mobile money</option>
+                    <option value="bank account">bank account</option>
+                </select></td>
+                <td> AMOUNT<br><input type="text" name="amount" placeholder="enter the amount"></td>
+            </tr>
+               <tr>
+                <td colspan="2"><button class="btn">SUBMIT</button></td>
+                <td></td>
+                <td></td>
+               </tr>
+        </table>
+
+        
+            
+     </div>
+</body>
+</html>

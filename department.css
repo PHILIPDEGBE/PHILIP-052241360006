@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+
+.cover{
+    margin-top: 40px;
+    background-position: center;
+    background-size: cover;
+    background: url(cover.jpg);
+    height: auto;
+    justify-content: center;
+    padding: 90px;
+}
+
+h2{
+    color: white;
+    padding-left: 600px;
+}
+
+.box{
+    width: auto;
+    height: auto;
+    border: 1px solid blue;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 40px;
+    border-top: none;
+}
+
+.box img{
+    height:200px;
+    width: 300px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    padding-left: 700px;
+}
+
+.par{
+    font-size: 25px;
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+}
+
+.par1{
+    font-size: 19px;
+    letter-spacing: 2.5px;
+    margin-bottom: 10px;
+
+}
+
+.par2{
+    font-size: 19px;
+    letter-spacing: 2.5px;
+    margin-bottom: 10px;
+
+}
+
+.par3{
+    padding-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.par3 a{
+    border: 1px solid transparent;
+    width: 20px;
+    background: orange;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.4s ease-in;
+
+}
+
+.par3 a:hover{
+    color: blue;
+    background: purple;
+}
